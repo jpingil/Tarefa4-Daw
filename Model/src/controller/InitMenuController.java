@@ -15,7 +15,7 @@ public class InitMenuController {
     private InitMenuView view;
 
     public InitMenuController() {
-        view = new InitMenuView();
+        view = new InitMenuView(this);
     }
 
     private void initApp() {
